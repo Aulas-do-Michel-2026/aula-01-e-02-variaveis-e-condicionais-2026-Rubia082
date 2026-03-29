@@ -13,3 +13,9 @@ Digite o peso do paciente (em kg):
 Resposta:
 Média: 140 mg
 """
+
+peso= float(input("Digite o peso do paciente (em kg): "))
+
+media= peso * 2
+
+print(f"Média: {media} mg")
